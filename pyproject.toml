@@ -1,0 +1,9 @@
+[project]
+name = "ai-trip-planner"
+version = "0.1.0"
+description = "The purpose of this project is to help user plan the trips within a budget range"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.3.0",
+]
