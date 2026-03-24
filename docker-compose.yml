@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  trip-planner:
+    build: .
+    container_name: agentic_ai_trip_planner
+    env_file:
+      - .env   
+    ports:
+      - "8000:8000"      
+      - "8510:8510"      
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: >
+      sh -c "uvicorn main:app --host 0.0.0.0 --port 8000 --reload & python travel_planner_ui.py"

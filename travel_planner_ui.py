@@ -584,8 +584,8 @@ if __name__ == '__main__':
     ui.run(
         title='🌍 AI Travel Planner - Your Personal Travel Assistant',
         favicon='🌍',
-        port=8080,
+        port=8510,
         reload=False,
-        show=True,
+        show=False,
         host='0.0.0.0'
     )
