@@ -4,16 +4,6 @@ An intelligent, AI-powered travel planning application that helps users create p
 
 Go to the terminal open work directory and run following commands:
 
-
-create .env file and add following keys: 
-OPENAI_API_KEY=''
-GROQ_API_KEY = ''
-OPENWEATHERMAP_API_KEY = ''
-EXCHANGE_RATE_API_KEY = ''
-YOUR_FOURSQUARE_API_KEY = ''
-
-
-
 ```
 pip install -r requirements.txt
 ```
